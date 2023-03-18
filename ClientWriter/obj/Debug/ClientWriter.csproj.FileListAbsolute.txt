@@ -1,0 +1,8 @@
+D:\User\unic\КМ\L3ClientServerReaderWriter\ClientWriter\bin\Debug\ClientWriter.exe.config
+D:\User\unic\КМ\L3ClientServerReaderWriter\ClientWriter\bin\Debug\ClientWriter.exe
+D:\User\unic\КМ\L3ClientServerReaderWriter\ClientWriter\bin\Debug\ClientWriter.pdb
+D:\User\unic\КМ\L3ClientServerReaderWriter\ClientWriter\obj\Debug\ClientWriter.csproj.AssemblyReference.cache
+D:\User\unic\КМ\L3ClientServerReaderWriter\ClientWriter\obj\Debug\ClientWriter.csproj.SuggestedBindingRedirects.cache
+D:\User\unic\КМ\L3ClientServerReaderWriter\ClientWriter\obj\Debug\ClientWriter.csproj.CoreCompileInputs.cache
+D:\User\unic\КМ\L3ClientServerReaderWriter\ClientWriter\obj\Debug\ClientWriter.exe
+D:\User\unic\КМ\L3ClientServerReaderWriter\ClientWriter\obj\Debug\ClientWriter.pdb
