@@ -1,18 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using System.Net.Sockets;
 using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 
 namespace ClientReader
 {
     public class Program
     {
-        static public Mutex mutex = new Mutex(false, "GlobalMutex");
-
         static void Main(string[] args)
         {
             
@@ -30,10 +23,14 @@ namespace ClientReader
                 int numberOfBytesRead;
                 do
                 {
+                    
                     ns.Write(reader, 0, reader.Length);
                     numberOfBytesRead = ns.Read(myReadBuffer, 0, myReadBuffer.Length);
                     String recievedData = win.GetString(myReadBuffer, 0, numberOfBytesRead);
-                    if (recievedData.Equals("writer")) continue;
+                    if (recievedData.Equals("null")) { 
+                         
+                        continue; 
+                    }
                     Console.WriteLine("Reply from " + host + ":" + recievedData);
                 } while (numberOfBytesRead > 0);
                 Console.ReadLine();

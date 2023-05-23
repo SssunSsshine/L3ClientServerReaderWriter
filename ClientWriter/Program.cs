@@ -10,7 +10,6 @@ namespace ClientWriter
 {
     internal class Program
     {
-        static public Mutex mutex = new Mutex(false, "GlobalMutex");
         static void Main(string[] args)
         {
             

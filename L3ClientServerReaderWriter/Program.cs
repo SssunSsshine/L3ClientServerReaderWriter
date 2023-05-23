@@ -13,6 +13,7 @@ namespace L3ClientServerReaderWriter
     public class Program
     {
         static public Mutex mutex = new Mutex(false, "GlobalMutex");
+
         static private int id = 0;
         static public int GetId() { return id; }
         static public void SetId() { id++; }
